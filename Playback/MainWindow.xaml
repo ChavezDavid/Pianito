@@ -1,0 +1,42 @@
+﻿<Window x:Class="Playback.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playback"
+        mc:Ignorable="d"
+        Title="Playback" Height="522" Width="525">
+    <Grid>
+        <Button x:Name="btnBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="btnBuscar_Click"/>
+        <TextBox x:Name="txtRuta" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417" IsEnabled="False"/>
+        <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="11,114,0,0" VerticalAlignment="Top" Width="75" Click="btnPlay_Click"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="170,114,0,0" VerticalAlignment="Top" Width="75" Click="btnStop_Click" IsEnabled="False"/>
+        <Slider x:Name="sldPosition" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="497" Thumb.DragCompleted="sldPosition_dragCompleted" Thumb.DragStarted="sldPosition_dragStarted"/>
+        <Label x:Name="lblPosition" Content="0:00" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDuration" Content="0:00" HorizontalAlignment="Left" Margin="242,61,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Margin="91,114,0,0" VerticalAlignment="Top" Width="74" IsEnabled="False" Click="btnPause_Click"/>
+        <ComboBox x:Name="cbDispositivos" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="264"/>
+        <Slider x:Name="sldVolumen" Margin="279,56,0,0" Width="21" VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" Height="99" Maximum="1" Value="0.5" Thumb.DragCompleted="sldVolumen_DragCompleted" ValueChanged="sldVolumen_ValueChanged"/>
+        <Button x:Name="btnCortar" Content="Cortar" HorizontalAlignment="Left" Margin="11,153,0,0" VerticalAlignment="Top" Width="75" Click="btnCortar_Click"/>
+        <Button x:Name="btnCrearFrecuencia" Content="Crear Frecuencia" HorizontalAlignment="Left" Margin="11,178,0,0" VerticalAlignment="Top" Width="155" Click="btnCrearFrecuencia_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="12,205,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="20" Margin="91,205,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="20" Margin="12,230,0,0" TextWrapping="Wrap" Text="tonito.wav" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="btnOffset" Content="Offset" HorizontalAlignment="Left" Margin="91,153,0,0" VerticalAlignment="Top" Width="75" Click="btnOffset_Click"/>
+        <Button x:Name="btnReproducirSeñal" Content="Reproducir Señal" HorizontalAlignment="Left" Margin="171,178,0,0" VerticalAlignment="Top" Width="153" Click="btnReproducirSeñal_Click"/>
+        <Slider x:Name="sldFrecuencia" HorizontalAlignment="Left" Margin="12,255,0,0" VerticalAlignment="Top" Width="312" Minimum="20" Maximum="20000" Value="5000" ValueChanged="sldFrecuencia_ValueChanged"/>
+        <Button x:Name="btnDo5" Content="" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnDo5_Click"/>
+        <Button x:Name="btnRe" Content="" HorizontalAlignment="Left" Margin="42,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnRe_Click"/>
+        <Button x:Name="btnMi" Content="" HorizontalAlignment="Left" Margin="74,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnMi_Click"/>
+        <Button x:Name="btnFa" Content="" HorizontalAlignment="Left" Margin="106,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnFa_Click"/>
+        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" Margin="138,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSol_Click"/>
+        <Button x:Name="btnLa" Content="" HorizontalAlignment="Left" Margin="170,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnLa_Click"/>
+        <Button x:Name="btnSi" Content="" HorizontalAlignment="Left" Margin="202,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSi_Click"/>
+        <Button x:Name="btnDo6" Content="" HorizontalAlignment="Left" Margin="234,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnDo6_Click"/>
+        <Button x:Name="btnDoS" Content="" HorizontalAlignment="Left" Margin="31,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnDoS_Click"/>
+        <Button x:Name="btnReS" Content="" HorizontalAlignment="Left" Margin="65,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnReS_Click"/>
+        <Button x:Name="btnFaS" Content="" HorizontalAlignment="Left" Margin="127,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnFaS_Click"/>
+        <Button x:Name="btnSolS" Content="" HorizontalAlignment="Left" Margin="161,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnSolS_Click"/>
+        <Button x:Name="btnLaS" Content="" HorizontalAlignment="Left" Margin="192,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnLaS_Click"/>
+    </Grid>
+</Window>
