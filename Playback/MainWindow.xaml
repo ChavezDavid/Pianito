@@ -26,17 +26,18 @@
         <Button x:Name="btnReproducirSeñal" Content="Reproducir Señal" HorizontalAlignment="Left" Margin="171,178,0,0" VerticalAlignment="Top" Width="153" Click="btnReproducirSeñal_Click"/>
         <Slider x:Name="sldFrecuencia" HorizontalAlignment="Left" Margin="12,255,0,0" VerticalAlignment="Top" Width="312" Minimum="20" Maximum="20000" Value="5000" ValueChanged="sldFrecuencia_ValueChanged"/>
         <Button x:Name="btnDo5" Content="" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnDo5_Click"/>
-        <Button x:Name="btnRe" Content="" HorizontalAlignment="Left" Margin="42,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnRe_Click"/>
-        <Button x:Name="btnMi" Content="" HorizontalAlignment="Left" Margin="74,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnMi_Click"/>
-        <Button x:Name="btnFa" Content="" HorizontalAlignment="Left" Margin="106,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnFa_Click"/>
-        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" Margin="138,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSol_Click"/>
-        <Button x:Name="btnLa" Content="" HorizontalAlignment="Left" Margin="170,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnLa_Click"/>
-        <Button x:Name="btnSi" Content="" HorizontalAlignment="Left" Margin="202,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSi_Click"/>
+        <Button x:Name="btnRe5" Content="" HorizontalAlignment="Left" Margin="42,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnRe_Click"/>
+        <Button x:Name="btnMi5" Content="" HorizontalAlignment="Left" Margin="74,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnMi_Click"/>
+        <Button x:Name="btnFa5" Content="" HorizontalAlignment="Left" Margin="106,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnFa_Click"/>
+        <Button x:Name="btnSol5" Content="" HorizontalAlignment="Left" Margin="138,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSol_Click"/>
+        <Button x:Name="btnLa5" Content="" HorizontalAlignment="Left" Margin="170,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnLa_Click"/>
+        <Button x:Name="btnSi5" Content="" HorizontalAlignment="Left" Margin="202,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnSi_Click"/>
         <Button x:Name="btnDo6" Content="" HorizontalAlignment="Left" Margin="234,309,0,0" VerticalAlignment="Top" Width="32" Height="120" Background="White" Click="btnDo6_Click"/>
-        <Button x:Name="btnDoS" Content="" HorizontalAlignment="Left" Margin="31,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnDoS_Click"/>
-        <Button x:Name="btnReS" Content="" HorizontalAlignment="Left" Margin="65,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnReS_Click"/>
-        <Button x:Name="btnFaS" Content="" HorizontalAlignment="Left" Margin="127,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnFaS_Click"/>
-        <Button x:Name="btnSolS" Content="" HorizontalAlignment="Left" Margin="161,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnSolS_Click"/>
-        <Button x:Name="btnLaS" Content="" HorizontalAlignment="Left" Margin="192,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnLaS_Click"/>
+        <Button x:Name="btnDo5S" Content="" HorizontalAlignment="Left" Margin="31,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnDoS_Click"/>
+        <Button x:Name="btnRe5S" Content="" HorizontalAlignment="Left" Margin="65,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnReS_Click"/>
+        <Button x:Name="btnFa5S" Content="" HorizontalAlignment="Left" Margin="127,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnFaS_Click"/>
+        <Button x:Name="btnSol5S" Content="" HorizontalAlignment="Left" Margin="161,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnSolS_Click"/>
+        <Button x:Name="btnLa5S" Content="" HorizontalAlignment="Left" Margin="192,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnLaS_Click"/>
+        <Button x:Name="btnDo6S" Content="" HorizontalAlignment="Left" Margin="253,309,0,0" VerticalAlignment="Top" Width="21" Height="80" Background="Black" Click="btnLaS_Click"/>
     </Grid>
 </Window>
